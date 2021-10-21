@@ -15,7 +15,7 @@
 
 body {
   background: var(--preta);
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Arial', Times, serif;
   color: #fff;
 }
 
@@ -48,7 +48,7 @@ header nav a:hover {
   font-size: 16px;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
     url(/img/capa-house.jpg);
-  height: 500px;px;
+  height: 400px;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -99,4 +99,8 @@ header nav a:hover {
   height: 100%;
   width: 100%;
   display: block;
+}
+
+.carrosel-filmes {
+  margin-top: 5px;
 }
